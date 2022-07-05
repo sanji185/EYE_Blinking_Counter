@@ -6,7 +6,16 @@ follow these steps:
 
 Install dependencies
 
-01. pip install opencv-python --user
-02. pip install cvzone --user
-03. pip install mediapipe --user
+>>> pip install opencv-python --user
+>>> pip install cvzone --user
+>>> pip install mediapipe --user
 
+All dependencies are fully installed and then run it 
+>>> python .\blinking_counter.py
+
+
+Note: 
+If you want to use any video other than this video, 
+bring the video inside your folder and put it in
+"cap = cv2.VideoCapture('0.mp4')" and change the video name in this code.
+>>> cap = cv2.VideoCapture('<your video file name>')
