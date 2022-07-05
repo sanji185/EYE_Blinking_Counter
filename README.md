@@ -25,7 +25,7 @@ python .\blinking_counter.py
 *Note:* <br>
 If you want to use any video other than this video, 
 bring the video inside your folder and put it in
-`cap = cv2.VideoCapture('0.mp4')` and change the video name in this code. <br> ---> 
+`cap = cv2.VideoCapture('sample.mp4')` and change the video name in this code. <br> ---> 
 `cap = cv2.VideoCapture('your_video_file_name')`
 <br>
 If you want to use webcam video : ---> `cap = cv2.VideoCapture(0)`
