@@ -8,13 +8,17 @@ Install dependencies
  ```sh
  pip install opencv-python --user
  ```
-
-02. pip install cvzone --user
-03. pip install mediapipe --user
+```sh
+ pip install cvzone --user
+ ```
+ ```sh
+ pip install mediapipe --user
+ ``` 
 
 All dependencies are fully installed and then run it: ---> 
+```js
 python .\blinking_counter.py
-
+```
 
 *Note:* <br>
 If you want to use any video other than this video, 
