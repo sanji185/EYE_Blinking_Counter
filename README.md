@@ -1,6 +1,6 @@
 # EYE_Blinking_Counter
 
-In this project, we will count the number of blinks in a video or webcam. EYE- Blink Count Estimation Using Mediapipe Facemesh
+In this project, we will count the number of blinks in a video or webcam. Count Estimation Using Mediapipe Facemesh
 
 follow these steps:
 
