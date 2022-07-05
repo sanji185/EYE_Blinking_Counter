@@ -1,4 +1,6 @@
 # EYE_Blinking_Counter
+![image](https://user-images.githubusercontent.com/59352357/177317069-4553e0c8-2d46-4b75-b104-3cb43a42abad.png)
+
 
 In this project, we will count the number of blinks in a video or webcam. Count Estimation Using Mediapipe Facemesh
 
