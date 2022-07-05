@@ -10,8 +10,8 @@ Install dependencies
 02. pip install cvzone --user
 03. pip install mediapipe --user
 
-All dependencies are fully installed and then run it 
-04. python .\blinking_counter.py
+All dependencies are fully installed and then run it: ---> 
+python .\blinking_counter.py
 
 
 *Note:* <br>
