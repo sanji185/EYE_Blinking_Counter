@@ -6,7 +6,7 @@ follow these steps:
 
 Install dependencies
 
->>> pip install opencv-python --user
+>>>> pip install opencv-python --user
 >>> pip install cvzone --user
 >>> pip install mediapipe --user
 
