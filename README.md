@@ -6,7 +6,7 @@ In this project, we will count the number of blinks in a video or webcam. Count 
 
 follow these steps:
 
-Install dependencies
+Install these dependencies.
  ```sh
  pip install opencv-python --user
  ```
