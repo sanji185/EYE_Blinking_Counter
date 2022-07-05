@@ -9,7 +9,7 @@ import cvzone
 from cvzone.FaceMeshModule import FaceMeshDetector
 from cvzone.PlotModule import LivePlot
 
-cap = cv2.VideoCapture('0.mp4')
+cap = cv2.VideoCapture('sample.mp4')
 detector = FaceMeshDetector(maxFaces=1)
 plotY = LivePlot(640, 360, [20, 50], invert=True)
 
@@ -62,16 +62,16 @@ while True:
                            colorR=color)
 
         imgPlot = plotY.update(ratioAvg, color)
-        img = cv2.resize(img, (640, 360))
+        img = cv2.resize(img, (500, 360))
         imgStack = cvzone.stackImages([img, imgPlot], 2, 1)
     else:
-        img = cv2.resize(img, (640, 360))
+        img = cv2.resize(img, (500, 360))
         imgStack = cvzone.stackImages([img, img], 2, 1)
 
-    cv2.imshow("Image", imgStack)
+    cv2.imshow("OutputVDO", imgStack)
     # Break gracefully
     q = cv2.waitKey(30) & 0xff                          # press ESC to exit
-    if q == 27 or cv2.getWindowProperty('Image', 0)<0:
+    if q == 27 or cv2.getWindowProperty('OutputVDO', 0)<0:
         break
     cv2.waitKey(25)
 
