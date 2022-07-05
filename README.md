@@ -27,7 +27,7 @@ If you want to use any video other than this video,
 bring the video inside your folder and put it in <br>
 `cap = cv2.VideoCapture('sample.mp4')` and change the video name in this code 
 `cap = cv2.VideoCapture('your_video_file_name')`
-<br>
-If you want to use webcam video _> `cap = cv2.VideoCapture(0)`
+<br><br>
+If you want to use webcam video: `cap = cv2.VideoCapture(0)`
 <br><br><br>
 [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/gbraad)
