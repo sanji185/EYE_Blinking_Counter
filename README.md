@@ -24,5 +24,4 @@ If you want to use webcam video : ---> cap = cv2.VideoCapture(0)
 
 
 <br><br><br>
-<br><br><br>
 [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/gbraad)
